@@ -1,0 +1,151 @@
+# =============================================================
+# # 0. LOGS E DOCUMENTOS
+# =============================================================
+# Ignorar arquivos de log
+*.log
+
+
+
+
+# Ignora a pasta de PDFs inteira em qualquer subpasta
+**/Documentacao_PDF/
+
+
+
+
+# Ignorar todos os arquivos PDF
+*.pdf
+
+
+
+
+# =============================================================
+# # 1. NODE.JS / JAVASCRIPT (Estudos de Automação)
+# =============================================================
+# Ignora a pasta gigante que o 'npm install' cria no seu computador
+**/node_modules/
+npm-debug.log*
+
+
+
+
+# =============================================================
+# # 2. PYTHON (Estudos de Automação)
+# =============================================================
+# Ignora os arquivos que o Python gera ao rodar seus scripts
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+**/.venv/
+**/venv/
+
+
+
+
+# =============================================================
+# # 3. VS CODE (Seu Ambiente de Desenvolvimento)
+# =============================================================
+# Ignora as configurações locais que o VS Code cria apenas para a sua máquina
+**/.vscode/
+
+
+
+
+# =============================================================
+# # 4. MICROSOFT OFFICE / POWER BI
+# =============================================================
+# Ignora arquivos temporários que o Excel e o Word criam quando estão abertos
+~$*
+
+
+
+
+# Ignora arquivos de backup temporários do Power BI
+*.pbit
+*.pbix.nested
+
+
+
+
+# =============================================================
+# # 5. GOOGLE WORKSPACE & APIS (Segurança)
+# =============================================================
+# IGNORAR CHAVES DE ACESSO E COPIAS DE SEGURANÇA
+# IMPORTANTE: Nunca suba suas senhas ou tokens do Google para o GitHub!
+*.json
+credentials.json
+token.json
+.clasp.json
+
+
+
+
+# =============================================================
+# # 6. AUTOMAÇÃO OUTLOOK & MICROSOFT ECOSYSTEM
+# =============================================================
+# Ignora arquivos de dados locais do Outlook e e-mails salvos
+*.ost
+*.pst
+*.msg
+*.oft
+
+
+
+
+# =============================================================
+# # 7. LINGUAGENS C e C++ (Compiladores)
+# =============================================================
+# Ignora os arquivos objetos, executáveis e binários gerados pelo GCC/G++
+*.o
+*.obj
+*.out
+*.gch
+*.exe
+*.exe.recipe
+*.ilk
+*.pdb
+
+
+
+
+# =============================================================
+# # 8. C# e .NET (Microsoft Visual Studio / VS Code)
+# =============================================================
+# Ignora as pastas de compilação e pacotes locais do C#
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+
+
+
+# AJUSTADO: Mantendo o arquivo de projeto do C# visível para o VS Code carregar o código
+# *.csproj
+
+
+
+
+# =============================================================
+# # 9. JAVA (JVM)
+# =============================================================
+# Ignora os arquivos de bytecode que a JVM gera
+*.class
+
+
+
+
+# Ignora arquivos de empacotamento (caso use Maven ou Gradle no futuro)
+*.jar
+*.war
+*.ear
+*.nar
+**/.mtj.tmp/
+
+
+
+
+
