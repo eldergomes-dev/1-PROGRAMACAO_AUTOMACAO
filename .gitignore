@@ -119,7 +119,7 @@ token.json
 *.user
 *.userosscache
 *.sln.docstates
-
+*.exe
 
 
 
